@@ -1,3 +1,4 @@
+--------- Многотабличные запросы
 ----------запрос 1.  1 способо вывода запроса
 SELECT s.n_z, s.name_st, s.surname, Array_agg(h.hobby_name)
 FROM student s,
